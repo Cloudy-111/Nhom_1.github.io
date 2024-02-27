@@ -12,13 +12,6 @@
 <body>
     <div class="container">
         <form action="/register" method="post">
-            
-            <% if (messages.error) { %>
-                <div class="alert alert-danger">
-                  <strong><%= messages.error %> </strong>
-                </div>
-            <% } %> 
-
             <h1>Sign Up</h1>
             <div class="input_box">
                 <input type="text" placeholder="Tên đăng nhập" name="username" id="inputName"><i class="fas fa-user"></i>
