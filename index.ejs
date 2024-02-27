@@ -13,12 +13,6 @@
     <div class="container">
         <form action="/login" method="post">
 
-            <% if (messages.error) { %>
-                <div class="alert alert-danger">
-                  <strong><%= messages.error %> </strong>
-                </div>
-            <% } %>
-
             <h1>Log in</h1>
             <div class="input_box">
                 <input type="email" placeholder="Email" name="email" id="inputEmail"><i class="fas fa-user"></i>
